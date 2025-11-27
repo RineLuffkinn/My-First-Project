@@ -1,0 +1,455 @@
+
+
+Every element is a box — but now you’ll control how big, spaced, and shaped that box is.
+
+
+
+
+Want to make it stand out?
+Try adding:
+
+    A short “About Me” paragraph
+    A list of hobbies or goals
+    A small profile photo using <img>
+    A favorite quote or line that represents you
+
+Start with this:
+
+<h1>Welcome to My Page</h1>
+<p>This is where I share my thoughts.</p>
+<ul>
+  <li>About Me</li>
+  <li>Projects</li>
+  <li>Contact</li>
+</ul>
+Then, inside your <style> tag or style.css, bring it to life:
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  padding: 40px;
+}
+
+h1 {
+  color: navy;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  color: #444;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+✅ Checklist:
+
+    Soft background
+    Clean font
+    Centered text
+    Styled navigation buttons
+    Consistent, readable code
+
+🎯 Goal:
+Make it feel like your personal landing page — unique and polished with just HTML and CSS.
+
+<h1>My Yard Sale Dot Calm</h1>
+<p>Your space, for chit chat with friends.</p>
+<p>While your at it why not sale sum of that old stuff you're not using anymore.<br>What about those collectables you"ve been collecting but cant find anyone else interested in your area.<br>Or maybe your looking for that old vintage doodad that cant be found anywhere.<br>How about all those Hobby projects you finally finished in the garage, isnt it about time you turn those around for a few bucks?</p>
+<h2>------------------------------------------------------------------------------------------</h2>
+<h1>Most Interesting Places in Odessa TX</h1>
+<h2>Meteor Crater</h2>
+<p>Located off I-20 near <b>Penwll RaceTrack</b></P>
+<h2>Buffalo Wallow</h2>
+<p>With the <b>lowest elevation</b> in the area it has been the local gathering spot for all animals in the area for hundreds of years</p>
+<h2>University of Texas of the Permian Basin</h2>
+<p>Home of the Falcons football team<br>Presidential Museum<br>Noel Art Museum<br>Take a walk on the 2 mile hike trail with a chance to see a colony of <b>Prairie Dogs</b> and see  the man made <b>Stone Hinge</b> or feed the ducks and turtles at the <b>Duck Pond</b></p>
+<h2>------------------------------------------------------------------------------------------</h2>
+<a href="https://www.DuckDuckGo.com" target"_blank">Search on DuckDuckGo</a>
+<br>
+<a href="https://www.radioshack.com">My Gadget Store</a>
+<br>
+<a href="https://www.samsung.com">Visit Samsung</a>
+<br>
+<h2>------------------------------------------------------------------------------------------</h2>
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.xOnQyNw4Hy9TNvn1vspInAHaE8%3Fpid%3DApi&f=1&ipt=235415bcc90000d72f6e1087ea9c1b91f17651e991a64b68f287d3f05bd08755&ipo=images" 
+alt-"Best Buy Logo">
+<img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.likenewpcs.com%2Fwp-content%2Fuploads%2F2016%2F09%2FMacBook-Pro-17-_2.jpg%3Fx14160&f=1&nofb=1&ipt=99410618760d366cae237d6c35b0129b41bffe805d0218f6497c2cd17f581e33https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.xOnQyNw4Hy9TNvn1vspInAHaE8%3Fpid%3DApi&f=1&ipt=235415bcc90000d72f6e1087ea9c1b91f17651e991a64b68f287d3f05bd08755&ipo=images" 
+alt="Macbook Pro Open Laptop">
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.zssse0AeH-t8cX0zaP6UaQHaEo%3Fpid%3DApi&f=1&ipt=1aa59594fc1c3afa213174590d841a83cc25f78ccc6b07a3970b6c91d5c0bab1&ipo=images" 
+alt="English Staffordshire Bull Terrior">
+<h2>------------------------------------------------------------------------------------------</h2>
+<h1>My Favorites</h1>
+<div>
+	<h2>Foods</h2>
+	<div>
+		<p>Ice Cream</p>
+		<p>Chicken Fried Steak and eggs</p>
+		<p>Pizza</p>
+	</div>
+</div>
+<div>
+	<h2>Music</h2>
+	<div>
+		<h3>Rock & Roll</h3>
+		<div>
+			<p>Metallica</p>
+			<p>Godsmack</p>
+			<p>Foo Fighters</p>
+		</div>
+	</div>
+	<div>
+		<h3>Country</h3>
+		<div>
+			<p>George Strait</p>
+			<p>Toby Keith</p>
+			<p>Luke Bryan</p>
+		</div>
+	</div>
+</div>
+<div>
+	<h2>Movies</h2>
+	<div>
+		<p>Armageddon</p>
+		<p>Gone in 60 Seconds</p>
+	</div>
+</div>
+<h2>------------------------------------------------------------------------------------------</h2>
+<head>
+	<title>My Yard Sale Dot Calm</title>
+</head>
+<body>
+	<div>
+		<h1>Ryan's Yard Sale</h1>
+		<p>Welcome to <b>My Yard Sale.</b> Please feel free to explore and click around.</p>
+		<div>
+			<h3>Shopping</h3>
+			<p>If your a looking for something specific, the <u>search bar</u> is at the bottom of this page.<br>
+				Or you can browse through <b>My Yard Sale</b> via the <u>categories</u> menu on the Left.</p>	
+		</div>
+		<div>
+			<h3>Selling</h3>
+			<p>Oh, are you lookin to make a <i>"SALE".</i> I might know a guy, that knows a guy. Haha, go ahead and click on the <u>Collectors Tab</u> at the top right, that will take you to the <b>Collectors Hub</b> where you can meet antique collectors and vintage owners of all kinds of things.<br>
+				I'm sure you'll find someone thats lookin for what you got, and probly willin to spend a pretty penny for it too!</p>
+		</div>
+		<div>
+			<h3>Wanna Trade</h3>
+			<p>I'm always interested in a straight swop, IF you got what I need that is. Step into <b>My Garage</b> by clicking the <u>Garage Sale Tab</u> at the top of the page, right next to the <u>Collectors Tab</u>.<br>
+				In <b>My Garage</b> you have the option to message me privately or we can conduct our business openly. Its pretty cool to see what some people have accomplished with a little bartering experience.<br>
+				My friends and their friends hang out in <b>My Garage</b> from time to time as well this can really help expand the influence of bartering and helps to cut out the annoying middle man who always wants his "so called" comission.</p>	
+		</div>
+	</div>
+	<div>
+		<h3>Mingle</h3>
+		<p>You can also join in the neighborhood of Yard Sales and Garage Sales and chit chat with Collectors and potential buyers of your product(s).<br>
+			Its also the place to go to link up any of your social media apps like Facebook, Instagram, or TikTok. Interestingly enough you can also link up an ebay account or Paypal. </p>
+	</div>
+</body>
+<h2>------------------------------------------------------------------------------------------</h2>
+<header>
+	<h1>My Yard Sale Dot Calm</h1>
+	<nav>
+		<a href="myyardsale.com/collectorshub">Collectors</a>
+		<a href="myyardsale.com/mygaragesale">My Garage Sale</a>
+		<a href="mytardsale.com/neighborhood">My Neighborhood</a>
+	</nav>
+</header>
+<main>
+	<h1>Ryan's Yard Sale</h1>
+	<p>Welcome to <b>My Yard Sale.</b> Please feel free to explore and click around.</p>
+</main>
+<footer>
+	<a href="myyardsale.com/contact">Contact</a>
+	<a href="myyardsale.com/about">About Us</a>
+	<p>© 2025 My Yard Sale Dot Calm</p>
+</footer>
+<h2>------------------------------------------------------------------------------------------</h2>
+<header>
+	<h1>My Yard Sale Dot Calm</h1>
+	<nav>
+		<a href="myyardsale.com/collectorshub">Collectors Hub</a>
+		<a href="myyardsale.com/mygaragesale">My Garage Sale</a>
+		<a href="mytardsale.com/neighborhood">My Neighborhood</a>
+	</nav>
+</header>
+<main>
+	<h1>My Yard Sale</h1>
+	<p>Welcome to <b>My Yardsale.</b>Here you'll find everything you need to get connected to the right people for you.<br>
+		Whether your a seller, buyer, or both, you can find them here. Better yet, they can find you here!<br>
+		Please feel free to explore and click around.</p>
+	<nav>
+		<h2>Categories</h2>
+		<a href="myyardsale.com/woodcrafts">Woodcrafts</a>
+		<a href="myyardsale.com/woodcrafts/tables">Table Tops</a>
+		<a href="myyardsale.com/woodcrafts/crosses">Cross Portaits</a>
+		<a href="myyardsale.com/metalwork">Metal Works</a>
+		<a href="myyardsale.com/metalwork/sculptures">Sculptures</a>
+		<a href="myyardsale.com/metalwork/lampstands">Lampstands</a>
+		<a href="myyardsale.com/metalwork/customfab">Custom Fabrication</a>
+		<a href="myyardsale.com/4sale">My Stuff</a>
+		<a href="myyardsale.com/4sale/new">Brand New Unopened Box</a>
+		<a href="myyardsale.com/4sale/likenew">Not Used Open Box</a>
+		<a href="myyardsale.com/4sale/used">Used Items</a>
+	</nav>
+	<section>
+		<h2>Shopping</h2>
+		<p>If your a looking for something specific, the <u>search bar</u> is at the bottom of this page.<br>
+			Or you can browse through <b>My Yardsale</b> via the <u>Categories</u> menu on the left or check out the <b>Collectors Hub.</b><br>
+			In the <b>Collectors Hub</b> you can find owners of  vintage items looking to sell them, and usually for a good price.</p>	
+	</section>
+	<section>
+		<h2>Selling</h2>
+		<p>Oh, are you lookin to make a <i>"SALE".</i> I might know a guy, that knows a guy. Haha, go ahead and click on the <u>Collectors Hub</u> Tab at the top right,<br>
+			that will take you to the <b>Collectors Hub</b> where you can meet antique collectors of all kinds of things.<br>
+			I'm sure you'll find someone thats lookin for what you got, and probly willin to spend a pretty penny for it too!</p>
+	</section>
+	<section>
+		<h2>Trades</h2>
+		<p>I'm always interested in a straight swop, IF you got what I need that is. Step into <b>My Garage</b> by clicking the <u>Garage Sale Tab</u> at the top of the page, <br>
+			right next to the <u>Collectors Tab</u>. In <b>My Garage</b> you have the option to message me privately or we can conduct our business openly. <br>
+			Its pretty cool to see what some people have accomplished with a little bartering experience.<br>
+			My friends and their friends hang out in <b>My Garage</b> from time to time as well,<br>
+			 this can really help expand the influence of bartering and helps to cut out the annoying middle man who always wants his "so called" comission.</p>	
+	</section>
+	<section>
+		<h2>Mingle</h2>
+		<p>You can also join in the <b>Neighborhood</b> of <b>Yard Sales</b> and <b>Garage Sales</b> and chit chat with Collectors or<br>
+			 potential buyers of your product(s) and Vintage Owners or vendors lookin to sell what your lookin to buy.<br>
+			Its also the place to go to link up any of your social media apps like Facebook, Instagram, or TikTok. Interestingly enough you can also link up an ebay account or Paypal.</p> 
+	</section>
+</main>
+<footer>
+	<h3>Resources</h3>
+	<a href="myyardsale.com/antiques">Antiquing</a>
+	<a href="myyardsale.com/vinatage">Vinatages</a>
+	<a href="myyardsale.com/collectors">Collectors</a>
+	<a href="myyardsale.com/traders">Bartering</a>
+	<h3>Support</h3>
+	<a href="myyardsale.com/contact">Contacts</a>
+	<h3>Company</h3>
+	<a href="myyardsale.com/aboutus">About Us</a>
+	<p>© 2025 My Yard Sale Dot Calm</p>
+</footer>
+<h2>------------------------------------------------------------------------------------------</h2>
+<body>														
+	<section id="title">												
+		<h1>MyYardSaleDotCalm</h1>
+		<p class="objective">
+						
+			</p>
+			<nav>
+				<a href="myyardsale.com/collectorshub">Collectors</a>
+				<br>
+				<a href="myyardsale.com/mygaragesale">My Garage Sale</a>
+				<br>
+				<a href="mytardsale.com/neighborhood">My Neighborhood</a>
+			</nav>
+	<p>Welcome to <b>My Yardsale.</b>Here you'll find everything you need to get connected to the right people for you.<br>
+		Whether your a seller, buyer, or both, you can find them here. Better yet, they can find you here!<br>
+		Please feel free to explore and click around.</p>
+	<nav>
+		<h2>Categories</h2>
+		<a href="myyardsale.com/woodcrafts">Woodcrafts</a>
+		<a href="myyardsale.com/woodcrafts/tables">Table Tops</a>
+		<a href="myyardsale.com/woodcrafts/crosses">Cross Portaits</a>
+		<a href="myyardsale.com/metalwork">Metal Works</a>
+		<a href="myyardsale.com/metalwork/sculptures">Sculptures</a>
+		<a href="myyardsale.com/metalwork/lampstands">Lampstands</a>
+		<a href="myyardsale.com/metalwork/customfab">Custom Fabrication</a>
+		<a href="myyardsale.com/4sale">My Stuff</a>
+		<a href="myyardsale.com/4sale/new">Brand New Unopened Box</a>
+		<a href="myyardsale.com/4sale/likenew">Not Used Open Box</a>
+		<a href="myyardsale.com/4sale/used">Used Items</a>
+	</nav>
+	<section>
+		<h2>Shopping</h2>
+		<p>If your a looking for something specific, the <u>search bar</u> is at the bottom of this page.<br>
+			Or you can browse through <b>My Yardsale</b> via the <u>Categories</u> menu on the left or check out the <b>Collectors Hub.</b><br>
+			In the <b>Collectors Hub</b> you can find owners of  vintage items looking to sell them, and usually for a good price.</p>	
+	</section>
+	<section>
+		<h2>Selling</h2>
+		<p>Oh, are you lookin to make a <i>"SALE".</i> I might know a guy, that knows a guy. Haha, go ahead and click on the <u>Collectors Hub</u> Tab at the top right,<br>
+			that will take you to the <b>Collectors Hub</b> where you can meet antique collectors of all kinds of things.<br>
+			I'm sure you'll find someone thats lookin for what you got, and probly willin to spend a pretty penny for it too!</p>
+	</section>
+	<section>
+		<h2>Trades</h2>
+		<p>I'm always interested in a straight swop, IF you got what I need that is. Step into <b>My Garage</b> by clicking the <u>Garage Sale Tab</u> at the top of the page, <br>
+			right next to the <u>Collectors Tab</u>. In <b>My Garage</b> you have the option to message me privately or we can conduct our business openly. <br>
+			Its pretty cool to see what some people have accomplished with a little bartering experience.<br>
+			My friends and their friends hang out in <b>My Garage</b> from time to time as well,<br>
+			 this can really help expand the influence of bartering and helps to cut out the annoying middle man who always wants his "so called" comission.</p>	
+	</section>
+	<section>
+		<h2>Mingle</h2>
+		<p>You can also join in the <b>Neighborhood</b> of <b>Yard Sales</b> and <b>Garage Sales</b> and chit chat with Collectors or<br>
+			 potential buyers of your product(s) and Vintage Owners or vendors lookin to sell what your lookin to buy.<br>
+			Its also the place to go to link up any of your social media apps like Facebook, Instagram, or TikTok. Interestingly enough you can also link up an ebay account or Paypal.</p> 
+	</section>
+</main>
+<footer>
+	<h3>Resources</h3>
+	<a href="myyardsale.com/antiques">Antiquing</a>
+	<a href="myyardsale.com/vinatage">Vinatages</a>
+	<a href="myyardsale.com/collectors">Collectors</a>
+	<a href="myyardsale.com/traders">Bartering</a>
+	<h3>Support</h3>
+	<a href="myyardsale.com/contact">Contacts</a>
+	<h3>Company</h3>
+	<a href="myyardsale.com/aboutus">About Us</a>
+	<p>© 2025 My Yard Sale Dot Calm</p>
+</footer>
+<h2>--------------------------------------------------------------------</h2>
+			<a href="#info">Go to info<a/>										
+	</section>														
+	<section id="info">													
+		<h1>Info</h1>													
+		<p class="dose"> 
+			
+			
+			
+			</p>							
+			<a href="#footer">Go to footer</a>										
+	</section>														
+	<section id="footer">												
+		<h1>Footer</h1>												
+		<p class="tres">
+			
+			
+			</p>					
+			<a href="#home">Back to top<a/>										
+	</section>														
+</body>															
+
+
+
+<ul>
+	<li><a href="https://www.myyardsaledotcalm.com/home">Home</a></li>
+	<li>
+		<a href="https://www.myyardsaledotcalm.com/blog">Blog</a>
+		<ul>
+			<li><a href="https://www.myyardsaledotcalm.com/blog/posts">Posts</a></li>
+			<li><a href="https://www.myyardsaledotcalm.com/blog/tutorials">Tutorials</a></li>
+		</ul>
+	</li>
+	<li><a href="https://www.myyardsaledotcalm.com/contacts">Contact</a></li>
+</ul>
+<h2>---------------------------------------------------------------</h2>
+<ul>
+	<li>Coding</li>
+	<li>Gaming</li>
+	<li>Restoration</li>
+</ul>
+<ol>
+	<li>Clean parts to be glued of all dirt, rust, oil, etc.</li>
+	<li>Apply glue evenly by holding spray can 6 inches away from part useing a sweeping motion</li>
+	<li>Allow the glue to get tacky before putting parts together, only takes about 30 seconds</li>
+	<li>Put the parts together and hold tight for about 3 minutes, clamps or a vice work best here</li>
+	<li>Allow the glue to dry for 24 hrs before putting to use</li>
+</ol>
+<h2>------------------------------------------------------------------</h2>
+<header>
+	<h1>My Schedule</h1>
+	<nav>
+	<a href="https://paycom.com">Paycom</a>
+	<a href="https://m.facebook.com">Facebook</a>
+	</nav>
+</header>
+<main>
+	<h2>A Day In My Shoes</h2>
+	<ol>
+		<li>Wake up at 6:30 a.m.
+			<a href="https://clock.com/alarm">Clock</a>
+		</li>
+		<li>Get dressed for a Workday, morning prayer, thank god for another day on earth and all blessings, ask for protection and guidance</li>
+		<li>Eat breakfast, watch the news and weather, wish family a good day, feed cat</li>
+		<li>Try not to die in morning traffic on commute to work</li>
+		<li>Clock in at Work
+			<a href="https://www.paycom.com/employee#">PaycomINday</a>
+		</li>
+		<li>Put up with co-workers and managers BS, try not to get hurt while running machines</li>
+		<li>Clock out for lunch
+			<a href="https://www.paycom.com/employee#">PaycomOUTlunch</a>
+		</li>
+		<li>Try not to die in noon traffic on commute to home</li>
+		<li>Make lunch, and watch locals news and weather while eating lunch, and feed cat</li>
+		<li>Try not to die in noon traffic on commute back to work</li>
+		<li>Clock back in at Work
+			<a href="https://www.paycom.com/employee#"">PaycomINlunch</a>
+		</li>
+		<li>Regurgitate the same crap from this morning, try to block it out with music
+			<a href="https://www.pandora.com/myplaylist">Pandora</a>
+		</li>
+		<li>Clock Out
+			<a href="https://www.paycom.com/employee#"">PaycomOUTday</a>
+		</li>
+		<li>Try not to die in rush hour traffic on commute back home</li>
+		<li>Make Grocery List
+			<ul>
+				<li>Milk</li>
+				<li>Eggs</li>
+				<li>Bread</li>
+			</ul>
+		</li>
+		<li>Try not to die in traffic to store, fight thru the hussle and bussle and the supermarket</li>
+		<li>Try not to die in traffic back home</li>
+		<li>Cook dinner
+			<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.spoonacular.com%2Frecipes%2F1026467-312x231.jpg&f=1" alt="Chicken Fried Steak and Eggs" />
+		</li>
+		<li>Clean Dishes, feed cat</li>
+		<li>Take a shower, wish family goodnight, say nightly prayer, thank god for all blessings and ask to be forgiven for all sins committed today</li>
+	</ol>
+</main>
+<footer>
+	<p>© 2025 My Schedule</p>
+</footer>
+<h2>---------------------------------------------------------------------</h2>
+<form>
+  <label>Favorite Color:</label>
+  <select>
+    <option>Red</option>
+    <option>Green</option>
+    <option>Blue</option>
+  </select>
+  <p>Best time to work:</p>
+  <input type="radio" name="time" /> Morning
+  <input type="radio" name="time" /> Evening
+
+  <p>Hobbies:</p>
+  <input type="checkbox" /> Music
+  <input type="checkbox" /> Art
+  <input type="checkbox" /> Sports
+
+  <input type="submit" value="Submit" />
+</form>
+
+<h2>----------------------------------------------------------------</h2>
+<h1>Contact Me</h1>
+<p>For questions and answers, fill out the form below.</p>
+<form>
+	<input type="text" /><label> :Name</label><br>
+	<input type="email" /><label> :Email</label><br>
+	<textarea rows="5" cols="30"></textarea><label> :Message</label><br>
+	<p>Preferred contact method:</p>
+	<input type="radio" name="contact" />Email<br>
+	<input type="radio" name="contact" />Phone
+	<p>What are you interested in?</p>
+	<input type="checkbox" /> Coding<br>  
+	<input type="checkbox" /> Design<br>  
+	<input type="submit" value="Send Message" />
+</form>
